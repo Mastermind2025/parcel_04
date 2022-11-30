@@ -1,0 +1,2 @@
+fetch("https://jsonplaceholder.typicode.com/posts/").then((function(o){return o.json()})).then((function(o){return console.log(o)})),fetch("https://jsonplaceholder.typicode.com/posts",{method:"POST",body:JSON.stringify({title:"boobs",body:"boobs",userId:1}),headers:{"Content-type":"application/json; charset=UTF-8"}}).then((function(o){return o.json()})).then((function(o){return console.log(o)})),fetch("https://jsonplaceholder.typicode.com/posts/101").then((function(o){return o.json()})).then((function(o){return console.log(o)}));
+//# sourceMappingURL=exp.246a6e26.js.map
